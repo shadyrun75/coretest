@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="common-logger" Version="1.4.1" />
+    <PackageReference Include="common-request-logger" Version="1.8.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CoreTest.Cores.Pakistan\CoreTest.Cores.Pakistan.csproj" />
+    <ProjectReference Include="..\CoreTest.Cores\CoreTest.Cores.csproj" />
+    <ProjectReference Include="..\CoreTest.Data.Pakistan\CoreTest.Data.Pakistan.csproj" />
+    <ProjectReference Include="..\CoreTest.Interfaces\CoreTest.Interfaces.csproj" />
+    <ProjectReference Include="..\CoreTest.JsonConverters.Pakistan\CoreTest.JsonConverters.Pakistan.csproj" />
+    <ProjectReference Include="..\CoreTest.Models.Pakistan\CoreTest.Models.Pakistan.csproj" />
+  </ItemGroup>
+
+</Project>

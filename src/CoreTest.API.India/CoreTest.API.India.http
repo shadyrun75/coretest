@@ -1,0 +1,6 @@
+@CoreTest.API.India_HostAddress = http://localhost:5010
+
+GET {{CoreTest.API.India_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

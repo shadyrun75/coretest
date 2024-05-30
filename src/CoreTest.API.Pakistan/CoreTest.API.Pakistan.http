@@ -1,0 +1,6 @@
+@CoreTest.API.Pakistan_HostAddress = http://localhost:5083
+
+GET {{CoreTest.API.Pakistan_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
